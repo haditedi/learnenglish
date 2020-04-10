@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/Layout"
+import styles from "./index.module.css"
 
 export const query = graphql`
   {
@@ -32,7 +33,7 @@ const IndexPage = ({
           />
         </article>
         <article>
-          <p>
+          <p className={styles.para}>
             Hi, my name is Santi, a fully qualified TEFL English teacher.
             Learning English online is fun! You can undertake lessons and make
             progress, in your own time, wherever you want. I am offering
