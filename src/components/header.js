@@ -17,7 +17,9 @@ const Header = () => {
 
   return (
     <header className={headerStyles.header}>
-      <h1>{data.site.siteMetadata.title}</h1>
+      <nav>
+        <h1>{data.site.siteMetadata.title}</h1>
+      </nav>
 
       <nav>
         <ul className={headerStyles.navList}>

@@ -8,7 +8,7 @@ export const query = graphql`
   {
     file(relativePath: { eq: "students.png" }) {
       img: childImageSharp {
-        fluid(fit: CONTAIN) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -25,14 +25,14 @@ const IndexPage = ({
   return (
     <Layout>
       <section className="main">
-        <article>
+        <article className="img-container">
           <Image
             fluid={fluid}
             alt="student"
             imgStyle={{ objectFit: "contain" }}
           />
         </article>
-        <article>
+        <article className="para-container">
           <p className={styles.para}>
             Hi, my name is Santi, a fully qualified TEFL English teacher.
             Learning English online is fun! You can undertake lessons and make
