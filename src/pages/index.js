@@ -28,7 +28,7 @@ const IndexPage = ({
           <Image
             fluid={fluid}
             alt="student"
-            // imgStyle={{ objectFit: "cover" }}
+            imgStyle={{ objectFit: "contain" }}
           />
         </article>
         <article className="para">

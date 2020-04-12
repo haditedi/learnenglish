@@ -4,10 +4,9 @@ import Layout from "../components/Layout"
 const AboutPage = () => {
   return (
     <Layout>
-      <div>
-        <h1>About Me</h1>
-      </div>
       <div className="para">
+        <h1>About Me</h1>
+
         <p>
           My vision is to facilitate your advancement in English, which may be
           instrumental to your career, future and way of life. I am a fully

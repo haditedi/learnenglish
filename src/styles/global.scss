@@ -12,6 +12,11 @@ body {
   box-sizing: inherit;
 }
 
+h1,
+h2 {
+  padding: 1rem;
+}
+
 .main {
   display: flex;
   align-items: center;
@@ -27,26 +32,48 @@ body {
 
 .para {
   line-height: 2rem;
-  padding: 1rem;
+  padding: 3rem;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  flex-grow: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
 }
 
 @media all and (max-width: 760px) {
   .para {
     font-size: 0.9rem;
   }
+  .footer {
+    font-size: 0.7rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media all and (max-width: 570px) {
   .para {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding: 1rem;
   }
 
   .main {
     flex-wrap: wrap;
   }
   .img-container div {
-    height: 100vh;
+    height: 70%;
     width: 100vw;
+  }
+  .footer {
+    font-size: 0.7rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
