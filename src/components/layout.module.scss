@@ -1,11 +1,11 @@
 .container {
   display: flex;
-  //   margin: 0 auto;
   min-height: 100vh;
   flex-wrap: wrap;
-  // max-width: 85vw;
+  width: 100%;
 }
 
 .content {
+  width: 100%;
   flex-grow: 1;
 }

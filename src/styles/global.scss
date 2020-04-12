@@ -2,6 +2,14 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 .main {
@@ -9,45 +17,36 @@ body {
   align-items: center;
 }
 
+.img-container {
+  width: 100%;
+  height: 100%;
+}
 .img-container div {
-  height: 100vh;
   width: 50vw;
 }
-.para-container {
-  width: 100%;
-}
-article {
+
+.para {
+  line-height: 2rem;
   padding: 1rem;
+  font-size: 1.5rem;
 }
 
 @media all and (max-width: 760px) {
+  .para {
+    font-size: 0.9rem;
+  }
+}
+
+@media all and (max-width: 570px) {
+  .para {
+    font-size: 1.5rem;
+  }
+
   .main {
     flex-wrap: wrap;
   }
-  article {
-    padding: 1rem;
-  }
-
   .img-container div {
     height: 100vh;
     width: 100vw;
   }
 }
-@media all and (max-width: 900px) {
-  nav ul li {
-    flex: 1 1 50%;
-  }
-}
-@media all and (max-width: 570px) {
-  nav ul li {
-    flex: 1 1 100%;
-  }
-  article {
-    padding: 1rem;
-  }
-}
-
-// display: grid;
-// grid-template-columns: 1fr 1fr;
-// grid-gap: 3rem;
-// align-items: center;

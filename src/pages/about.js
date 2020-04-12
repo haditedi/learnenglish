@@ -7,7 +7,7 @@ const AboutPage = () => {
       <div>
         <h1>About Me</h1>
       </div>
-      <div>
+      <div className="para">
         <p>
           My vision is to facilitate your advancement in English, which may be
           instrumental to your career, future and way of life. I am a fully
