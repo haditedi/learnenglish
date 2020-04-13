@@ -17,12 +17,9 @@ h2 {
   align-items: center;
 }
 
-.img-container {
-  width: 100%;
-  height: 100%;
-}
 .img-container div {
   width: 50vw;
+  height: 80vh;
 }
 
 .para {
@@ -62,6 +59,10 @@ h2 {
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+  .img-container div {
+    width: 50vw;
+    height: 90%;
   }
 }
 

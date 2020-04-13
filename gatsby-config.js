@@ -3,10 +3,13 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: "Learn English Digital",
+    description:
+      "Learn english is fun. I am an Edinburgh based teacher, TEFL qualified and I teach english online",
     author: "Santi Tedi",
   },
   plugins: [
     "gatsby-plugin-sass",
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
