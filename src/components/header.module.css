@@ -48,7 +48,10 @@ h1 {
   width: 200px;
 }
 .active-nav-item {
-  color: #16323f;
+  color: #ffc70a;
+}
+.bar {
+  padding-bottom: 1.6rem;
 }
 
 @media all and (max-width: 900px) {
@@ -66,5 +69,7 @@ h1 {
   }
   li {
     flex: 1 1 100%;
+  }
+  .bar {
   }
 }
