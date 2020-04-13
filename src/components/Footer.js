@@ -1,9 +1,11 @@
 import React from "react"
 
 const Footer = () => {
+  const currYear = new Date().getFullYear()
+
   return (
     <div className="footer">
-      <p>&copy; Learn English Digital</p>
+      <p>&copy; {currYear} Learn English Digital</p>
     </div>
   )
 }
