@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 
 export const query = graphql`
   {
@@ -23,6 +24,16 @@ const IndexPage = ({
 }) => {
   return (
     <Layout>
+      <Helmet>
+        <title>Freelance online English Teacher</title>
+        <meta
+          name="description"
+          content="Learn English online by a qualified TEFL teacher. My name is Santi Tedi. I am an Edinburgh based teacher. Learn and improve your English from the comfort of your home, as long as you have motivation, you will increase your ability in English."
+        />
+        <meta name="author" content="Santi Tedi" />
+        <html lang="en" />
+        <link rel="icon" type="image/ico" href="favicon.ico" />
+      </Helmet>
       <section className="main">
         <article className="img-container">
           <Image

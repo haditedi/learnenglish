@@ -31,15 +31,37 @@ h2 {
 }
 @keyframes animation {
   0% {
+    opacity: 0;
     margin-left: 30%;
   }
+  50% {
+    opacity: 0.5;
+  }
   100% {
+    opacity: 1;
     margin-left: 0%;
   }
 }
 
-.contact-bunny {
+.toCenter {
   text-align: center;
+}
+
+.contact-bunny {
+  animation: bunny 2s ease-out;
+}
+@keyframes bunny {
+  0% {
+    margin-right: 30%;
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    margin-right: 0%;
+    opacity: 1;
+  }
 }
 
 .footer {
