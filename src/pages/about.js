@@ -1,9 +1,14 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 
 const AboutPage = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>About me | Learn English online</title>
+        <meta name="description" content="Info about me" />
+      </Helmet>
       <div className="para">
         <h1>About Me</h1>
 
