@@ -32,7 +32,6 @@ const IndexPage = ({
         />
         <meta name="author" content="Santi Tedi" />
         <html lang="en" />
-        <link rel="icon" type="image/ico" href="favicon.ico" />
       </Helmet>
       <section className="main">
         <article className="img-container">

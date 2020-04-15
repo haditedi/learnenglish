@@ -8,8 +8,14 @@ body {
 }
 
 h1,
-h2 {
+h2,
+p {
   padding: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 .main {
@@ -20,6 +26,10 @@ h2 {
 .img-container div {
   width: 50vw;
   height: 80vh;
+}
+.img-container {
+  width: 50%;
+  height: 50%;
 }
 
 .para {

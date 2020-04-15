@@ -1,0 +1,8 @@
+.background {
+  background-color: #ebf5f6;
+  margin: 1rem 0 1rem;
+}
+
+.background:hover {
+  background-color: #dbf5f6;
+}
