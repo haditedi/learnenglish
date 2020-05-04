@@ -1,9 +1,22 @@
 import React from "react"
 import Layout from "../components/Layout"
-import bunny from "../images/bunny.png"
-import { Helmet } from "react-helmet"
 
-const contact = () => {
+import { Helmet } from "react-helmet"
+import { graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
+
+const Contact = () => {
+  const data = useStaticQuery(graphql`
+    {
+      file(relativePath: { eq: "bunny.png" }) {
+        img: childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
   return (
     <Layout>
       <Helmet>
@@ -11,15 +24,19 @@ const contact = () => {
         <meta name="description" content="Contact me page" />
       </Helmet>
       <div className="toCenter">
-        <img className="contact-bunny" src={bunny} alt={bunny} />
+        <Img
+          className="contact-bunny"
+          fluid={data.file.img.fluid}
+          alt="bunny"
+        />
       </div>
       <div className="para toCenter">
-        <h1>Contact Me</h1>
-        <p>Call me at +44 (0) 7886 242540</p>
+        <h1 style={{ textAlign: "center" }}>Contact Me</h1>
+        <p style={{ marginBottom: "0" }}>Call me at +44 (0) 7886 242540</p>
         <p>Email : santi.tedi@gmail.com</p>
       </div>
     </Layout>
   )
 }
 
-export default contact
+export default Contact

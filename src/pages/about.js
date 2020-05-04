@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { Helmet } from "react-helmet"
+import classes from "./about.module.css"
 
 const AboutPage = () => {
   return (
@@ -9,7 +10,7 @@ const AboutPage = () => {
         <title>About me | Learn English online</title>
         <meta name="description" content="Info about me" />
       </Helmet>
-      <div className="para">
+      <div className={`para ${classes.back}`}>
         <h1>About Me</h1>
 
         <p>
@@ -22,29 +23,41 @@ const AboutPage = () => {
           difference to adults and children in the field of English language.
         </p>
         <h2>Professional Experience</h2>
-        <ul>
+        <ul className={classes.bullet}>
           <li>
-            13 years of Hospitality Industry, mentoring and providing support to
-            my teams to achieve their targets.
+            <p>
+              13 years of Hospitality Industry, mentoring and providing support
+              to my teams to achieve their targets.
+            </p>
           </li>
           <li>
-            5 years of banking industry experience, improving communication
-            within teams and achieving the company's targets.
+            <p>
+              5 years of banking industry experience, improving communication
+              within teams and achieving the company's targets.
+            </p>
           </li>
           <li>
-            One year of teaching English as a Foreign language online,
-            encouraging students to learn effectively and helping them build
-            confidence.
+            <p>
+              One year of teaching English as a Foreign language online,
+              encouraging students to learn effectively and helping them build
+              confidence.
+            </p>
           </li>
         </ul>
         <h2>Education</h2>
-        <ul>
-          <li>High National Diploma in Hospitality Management.</li>
+        <ul className={classes.bullet}>
           <li>
-            Associate Member, Chartered Institute of Management Accountants
-            (CIMA).
+            <p>High National Diploma in Hospitality Management.</p>
           </li>
-          <li>TELF ( Teaching English as Foreign Language ).</li>
+          <li>
+            <p>
+              Associate Member, Chartered Institute of Management Accountants
+              (CIMA).
+            </p>
+          </li>
+          <li>
+            <p>TELF ( Teaching English as Foreign Language ).</p>
+          </li>
         </ul>
       </div>
     </Layout>

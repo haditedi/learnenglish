@@ -1,0 +1,15 @@
+.bullet {
+  list-style: square outside url("../images/pin.svg");
+}
+
+.back {
+  background-image: url("../images/back-about.svg");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+@media (min-width: 550px) {
+  .back {
+    background-repeat: no-repeat;
+  }
+}

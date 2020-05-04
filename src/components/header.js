@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <nav>
-        <h1>{data.site.siteMetadata.title}</h1>
+        <h1 style={{ marginBottom: "10px" }}>{data.site.siteMetadata.title}</h1>
       </nav>
 
       <nav className={headerStyles.bar}>
@@ -31,15 +31,7 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              to="/blog"
-            >
-              Blog
-            </Link>
-          </li>
+
           <li>
             <Link
               className={headerStyles.navItem}

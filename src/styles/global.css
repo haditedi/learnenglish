@@ -1,3 +1,5 @@
+/* color pallette: ffb6b6, fde2e2, aacfcf,679b9b */
+
 html,
 body {
   height: 100%;
@@ -5,16 +7,21 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fde2e2;
+}
+* {
+  box-sizing: border-box;
 }
 
 h1,
 h2,
 p {
-  padding: 1rem;
+  color: #3f5e5e;
+  padding: 0.5rem;
 }
 
 a {
-  color: black;
+  color: rgb(49, 48, 48);
   text-decoration: none;
 }
 
@@ -25,16 +32,11 @@ a {
 
 .img-container div {
   width: 50vw;
-  height: 80vh;
-}
-.img-container {
-  width: 50%;
-  height: 50%;
 }
 
 .para {
-  line-height: 2rem;
-  padding: 3rem;
+  line-height: 3rem;
+  padding: 1.5rem;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   animation: animation 2s ease-out;
@@ -54,10 +56,15 @@ a {
 }
 
 .toCenter {
-  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-bunny {
+  width: 500px;
   animation: bunny 2s ease-out;
 }
 @keyframes bunny {
@@ -84,24 +91,8 @@ a {
 
 @media all and (max-width: 760px) {
   .para {
-    font-size: 0.9rem;
-  }
-  .footer {
-    font-size: 0.7rem;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .img-container div {
-    width: 50vw;
-    height: 90%;
-  }
-}
-
-@media all and (max-width: 570px) {
-  .para {
-    font-size: 1rem;
     padding: 1rem;
+    line-height: 2rem;
   }
 
   .main {
