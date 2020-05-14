@@ -1,6 +1,6 @@
 import React from "react"
 import TextField from "@material-ui/core/TextField"
-import classes from "./formui.module.css"
+import classes from "./Formui.module.css"
 import Button from "@material-ui/core/Button"
 import SendIcon from "@material-ui/icons/Send"
 
