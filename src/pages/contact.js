@@ -31,12 +31,9 @@ const Contact = () => {
           alt="bunny"
         />
       </div>
-      <div className="para toCenter">
+      <div className="toCenter">
         <h1>Contact Me</h1>
         <Formui />
-        {/* <h1 style={{ textAlign: "center" }}>Contact Me</h1>
-        <p style={{ marginBottom: "0" }}>Call me at +44 (0) 7886 242540</p>
-        <p>Email : santi.tedi@gmail.com</p> */}
       </div>
     </Layout>
   )

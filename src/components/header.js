@@ -20,7 +20,9 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <nav>
-        <h1 style={{ marginBottom: "10px" }}>{data.site.siteMetadata.title}</h1>
+        <h1 style={{ marginBottom: "10px", marginBlockStart: "0" }}>
+          {data.site.siteMetadata.title}
+        </h1>
       </nav>
 
       <nav className={headerStyles.bar}>

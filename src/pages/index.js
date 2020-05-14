@@ -37,6 +37,7 @@ const IndexPage = ({
         <article className="img-container">
           <Image
             fluid={fluid}
+            style={{ width: "100%" }}
             alt="student"
             imgStyle={{ objectFit: "contain" }}
           />

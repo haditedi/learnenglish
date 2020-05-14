@@ -24,7 +24,7 @@ const AboutPage = () => {
         <title>About me | Learn English online</title>
         <meta name="description" content="Info about me" />
       </Helmet>
-      <div className={`para ${classes.back}`}>
+      <div className={`${classes.aboutPara} ${classes.back}`}>
         <h1>About Me</h1>
 
         <p>
@@ -38,14 +38,16 @@ const AboutPage = () => {
         </p>
         <ExpansionPanel classes={{ root: myclass.root }}>
           <ExpansionPanelSummary
-            className={`para ${classes.exp}`}
+            className={`${classes.aboutPara} ${classes.exp}`}
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
             <h2>Professional Experience</h2>
           </ExpansionPanelSummary>
-          <ExpansionPanelDetails className={`para ${classes.back}`}>
+          <ExpansionPanelDetails
+            className={`${classes.aboutPara} ${classes.back}`}
+          >
             <ul className={classes.bullet}>
               <li>
                 <p>
@@ -73,14 +75,16 @@ const AboutPage = () => {
 
         <ExpansionPanel classes={{ root: myclass.root }}>
           <ExpansionPanelSummary
-            className={`para ${classes.exp}`}
+            className={`${classes.aboutPara} ${classes.exp}`}
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
             <h2>Education</h2>
           </ExpansionPanelSummary>
-          <ExpansionPanelDetails className={`para ${classes.back}`}>
+          <ExpansionPanelDetails
+            className={`${classes.aboutPara} ${classes.back}`}
+          >
             <ul className={classes.bullet}>
               <li>
                 <p>High National Diploma in Hospitality Management.</p>
