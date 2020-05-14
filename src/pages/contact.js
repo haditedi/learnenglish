@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import { Helmet } from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import Formui from "../components/Formui"
 
 const Contact = () => {
   const data = useStaticQuery(graphql`
@@ -31,9 +32,11 @@ const Contact = () => {
         />
       </div>
       <div className="para toCenter">
-        <h1 style={{ textAlign: "center" }}>Contact Me</h1>
+        <h1>Contact Me</h1>
+        <Formui />
+        {/* <h1 style={{ textAlign: "center" }}>Contact Me</h1>
         <p style={{ marginBottom: "0" }}>Call me at +44 (0) 7886 242540</p>
-        <p>Email : santi.tedi@gmail.com</p>
+        <p>Email : santi.tedi@gmail.com</p> */}
       </div>
     </Layout>
   )
