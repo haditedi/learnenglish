@@ -6,9 +6,6 @@
   width: 100%;
   margin: auto;
 }
-div {
-  margin: 5px;
-}
 
 @media (min-width: 600px) {
   .formui {
