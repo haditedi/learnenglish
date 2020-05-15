@@ -43,7 +43,7 @@ const formui = () => {
         variant="outlined"
       />
       <Button
-        style={{ margin: "10px" }}
+        style={{ marginTop: "10px", backgroundColor: "black" }}
         variant="contained"
         color="primary"
         type="submit"

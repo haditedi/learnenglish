@@ -3,12 +3,13 @@
   flex-direction: column;
   margin: 20px 0;
   padding: 10px 0;
-  width: 100%;
+  width: 70%;
   margin: auto;
 }
 
 @media (min-width: 600px) {
   .formui {
     width: 50vw;
+    max-width: 500px;
   }
 }
