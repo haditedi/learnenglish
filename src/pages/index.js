@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/Layout"
 import { Helmet } from "react-helmet"
-import rocket from "../images/rocket.png"
+import rocket from "../images/rocket1.png"
 
 export const query = graphql`
   {
@@ -91,12 +91,18 @@ const IndexPage = ({
         </div>
       </section>
 
-      <p>
-        My rates are: £15 per 55 mins one to one online lessons £10 per 55 mins
-        for group online lessons (per person) £7.5 per 25 minute one to one
-        online lessons per person I can offer a discount for booking over 10
-        hours!
-      </p>
+      <section>
+        <div className="content">
+          <p>
+            My rates are: <br />
+            £15 per 55 mins one to one online lessons.
+            <br />
+            £10 per 55 mins for group online lessons (per person). <br />
+            £7.5 per 25 minute one to one online lessons per person. <br />I can
+            offer a discount for booking over 10 hours!
+          </p>
+        </div>
+      </section>
     </Layout>
   )
 }
