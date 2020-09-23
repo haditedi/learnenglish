@@ -22,13 +22,17 @@
   align-items: center;
   margin: auto;
   line-height: 1.8rem;
-  padding: 0.5rem;
+  padding: 2rem;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   animation: animation 2s ease-out;
 }
 .aboutPara p {
   line-height: 1.5;
+}
+.aboutPara h1,
+.aboutPara h2 {
+  margin: 2rem;
 }
 @keyframes animation {
   0% {
@@ -47,6 +51,7 @@
 @media (min-width: 550px) {
   .back {
     background-repeat: no-repeat;
+    background-position: center;
   }
   .aboutPara {
     width: 70vw;

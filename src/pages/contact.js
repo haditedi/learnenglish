@@ -40,7 +40,7 @@ const Contact = () => {
           or <b>email: fmstedi@gmail.com </b>
         </p>
         <p>
-          <b>Mobile: at +44 (0) 788 624 2540</b>
+          <b>Mobile: +44 (0) 788 624 2540</b>
         </p>
       </div>
     </Layout>

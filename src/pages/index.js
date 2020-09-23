@@ -71,7 +71,10 @@ const IndexPage = ({
           <p>
             We can use Skype, Google Docs, WhatsApp, Zoom and FaceTime, and my
             past experience of teaching online to over 2500 students have been
-            very successful. We can cover all aspects of English in :
+            very successful.
+          </p>
+          <p>
+            We can cover all aspects of English in :
             <ul className="bullet">
               <li>CV proof-reading</li>
               <li>Job interview role plays</li>
