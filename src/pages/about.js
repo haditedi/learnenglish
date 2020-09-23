@@ -64,9 +64,9 @@ const AboutPage = () => {
               </li>
               <li>
                 <p>
-                  One year of teaching English as a Foreign language online,
-                  encouraging students to learn effectively and helping them
-                  build confidence.
+                  Over one year of teaching English as a Foreign language
+                  online, encouraging students to learn effectively and helping
+                  them build confidence.
                 </p>
               </li>
             </ul>
@@ -88,6 +88,9 @@ const AboutPage = () => {
             <ul className={classes.bullet}>
               <li>
                 <p>High National Diploma in Hospitality Management.</p>
+              </li>
+              <li>
+                <p>BA Degree in Hospitality Management.</p>
               </li>
               <li>
                 <p>

@@ -1,4 +1,5 @@
 /* color pallette: ffb6b6, fde2e2, aacfcf,679b9b */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 html,
 body {
@@ -8,6 +9,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #fde2e2;
+  font-family: "Open Sans", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -45,6 +47,29 @@ a {
   margin-bottom: 1rem;
   animation: animation 2s ease-out;
 }
+.contentBackground {
+  background-color: #48dbfb;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  max-width: 700px;
+  line-height: 1.8rem;
+  padding: 2rem 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+
+  /* background: url("../images/rocket.png"); */
+}
+.content h2,
+.content p {
+  color: black;
+}
+.bullet {
+  padding-left: 20px;
+}
+
 @keyframes animation {
   0% {
     opacity: 0;
@@ -114,5 +139,19 @@ a {
     margin: 1.5rem;
     width: 50%;
     max-width: 700px;
+  }
+  .contentBackground {
+    position: relative;
+  }
+  .content {
+    padding: 2rem;
+  }
+  .rocket {
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    width: 100px;
+    height: auto;
+    transform: rotate(-55deg);
   }
 }

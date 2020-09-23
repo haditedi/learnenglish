@@ -35,6 +35,14 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <Formui />
       </div>
+      <div className="toCenter">
+        <p style={{ marginTop: "20px" }}>
+          or <b>email: fmstedi@gmail.com </b>
+        </p>
+        <p>
+          <b>Mobile: at +44 (0) 788 624 2540</b>
+        </p>
+      </div>
     </Layout>
   )
 }
