@@ -13,15 +13,23 @@ const AboutPage = () => {
       <div className={`${classes.aboutPara} ${classes.back}`}>
         <h1>About Me</h1>
 
-        <p>
-          My vision is to facilitate your advancement in English, which may be
-          instrumental to your career, future and way of life. I am a fully
-          qualified TEFL teacher (Teaching English as a Foreign Language) and
-          have been living and working in the UK for over 20 years.
-          <br />I have enjoyed a successful career in both the hospitality and
-          banking industries and now wish to devote more time to making a direct
-          difference to adults and children in the field of English language.
-        </p>
+        <ul>
+          <li>
+            My vision is to facilitate your advancement in English, which may be
+            instrumental to your career, future and way of life.
+          </li>
+          <li>
+            I am a fully qualified TEFL teacher (Teaching English as a Foreign
+            Language) and have been living and working in the UK for over 20
+            years.
+          </li>
+          <li>
+            I have enjoyed a successful career in both the hospitality and
+            banking industries and now wish to devote more time to making a
+            direct difference to adults and children in the field of English
+            language.
+          </li>
+        </ul>
 
         <h2>Professional Experience</h2>
 
