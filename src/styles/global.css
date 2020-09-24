@@ -134,6 +134,7 @@ a {
     flex-wrap: no-wrap;
     margin: auto;
     max-width: 1400px;
+    padding-bottom: 4rem;
   }
   .img-container {
     display: inline-block;
@@ -151,38 +152,39 @@ a {
   }
   .rocket {
     display: initial;
+    width: 300px;
+    height: auto;
     position: absolute;
     right: 20%;
     top: 50%;
-    width: 100px;
-    height: auto;
-    transform: rotate(-55deg);
+    transform: rotate(135deg);
     animation: move 100s linear infinite;
   }
   @keyframes move {
     0% {
       right: 15%;
-      top: 50%;
+      top: 15%;
+      transform: translate(0) rotate(135deg);
     }
     40% {
       right: 15%;
-      top: 10%;
-      transform: rotate(-55deg);
+      top: 70%;
+      transform: translate(0) rotate(135deg);
     }
     50% {
       right: 15%;
-      top: 10%;
-      transform: rotate(120deg);
+      top: 70%;
+      transform: translate(200px) rotate(-50deg);
     }
     90% {
       right: 15%;
-      top: 50%;
-      transform: rotate(120deg);
+      top: 15%;
+      transform: translate(0) rotate(-50deg);
     }
     100% {
       right: 15%;
-      top: 50%;
-      transform: rotate(290deg);
+      top: 15%;
+      transform: translate(0) rotate(135deg);
     }
   }
 }

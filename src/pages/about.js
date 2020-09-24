@@ -2,22 +2,8 @@ import React from "react"
 import Layout from "../components/Layout"
 import { Helmet } from "react-helmet"
 import classes from "./about.module.css"
-import ExpansionPanel from "@material-ui/core/ExpansionPanel"
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary"
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails"
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
-import { makeStyles } from "@material-ui/core/styles"
-
-const useStyles = makeStyles({
-  root: {
-    backgroundColor: "#fde2e2",
-    backgroundImage: "url('../images/back-about.svg')",
-    color: "white",
-  },
-})
 
 const AboutPage = () => {
-  const myclass = useStyles()
   return (
     <Layout>
       <Helmet>

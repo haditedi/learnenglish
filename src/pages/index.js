@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/Layout"
 import { Helmet } from "react-helmet"
-import rocket from "../images/rocket1.png"
+import rocket from "../images/rocket2.svg"
 
 export const query = graphql`
   {
