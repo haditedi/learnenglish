@@ -37,7 +37,7 @@ const AboutPage = () => {
           </li>
         </ul>
 
-        <h2>Professional Experience</h2>
+        <h1>Professional Experience</h1>
 
         <ul className={classes.bullet}>
           <li>
@@ -61,7 +61,7 @@ const AboutPage = () => {
           </li>
         </ul>
 
-        <h2>Education</h2>
+        <h1>Education</h1>
 
         <ul className={classes.bullet}>
           <li>
