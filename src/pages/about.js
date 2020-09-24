@@ -13,7 +13,7 @@ const AboutPage = () => {
       <div className={`${classes.aboutPara} ${classes.back}`}>
         <h1>About Me</h1>
 
-        <ul>
+        <ul className={classes.bullet}>
           <li>
             My vision is to facilitate your advancement in English, which may be
             instrumental to your career, future and way of life.
