@@ -15,19 +15,25 @@ const AboutPage = () => {
 
         <ul className={classes.bullet}>
           <li>
-            My vision is to facilitate your advancement in English, which may be
-            instrumental to your career, future and way of life.
+            <p>
+              My vision is to facilitate your advancement in English, which may
+              be instrumental to your career, future and way of life.
+            </p>
           </li>
           <li>
-            I am a fully qualified TEFL teacher (Teaching English as a Foreign
-            Language) and have been living and working in the UK for over 20
-            years.
+            <p>
+              I am a fully qualified TEFL teacher (Teaching English as a Foreign
+              Language) and have been living and working in the UK for over 20
+              years.
+            </p>
           </li>
           <li>
-            I have enjoyed a successful career in both the hospitality and
-            banking industries and now wish to devote more time to making a
-            direct difference to adults and children in the field of English
-            language.
+            <p>
+              I have enjoyed a successful career in both the hospitality and
+              banking industries and now wish to devote more time to making a
+              direct difference to adults and children in the field of English
+              language.
+            </p>
           </li>
         </ul>
 
