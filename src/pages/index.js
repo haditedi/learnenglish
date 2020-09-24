@@ -50,13 +50,16 @@ const IndexPage = ({
               TEFL
             </a>{" "}
             English teacher. Learning English online is fun!
-            <br />
+          </p>
+          <p>
             You can undertake lessons and make progress, in your own time,
             wherever you want. I am offering one-to-one English tuition online
-            to children and adults whose first language is not English. If you
-            would like to further your progress in English, I can offer support
-            to equip students to become proficient in the most popular and
-            widely used language in the world.
+            to children and adults whose first language is not English.
+          </p>
+          <p>
+            If you would like to further your progress in English, I can offer
+            support to equip students to become proficient in the most popular
+            and widely used language in the world.
           </p>
         </article>
       </section>
