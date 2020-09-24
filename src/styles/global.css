@@ -66,6 +66,9 @@ a {
 .content p {
   color: black;
 }
+.content h2 {
+  line-height: 1.5;
+}
 .bullet {
   padding-left: 20px;
 }
