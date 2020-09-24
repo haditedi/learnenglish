@@ -41,5 +41,5 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
-  "browserslist" : ["ie 11", "ie 10"]
+  "browserslist" : [">0.25%"]
 }
