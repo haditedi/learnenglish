@@ -11,7 +11,7 @@ const AboutPage = () => {
         <meta name="description" content="Info about me" />
       </Helmet>
       <div className={classes.back}></div>
-      <div className={classes.aboutPara}>
+      <div className="content">
         <h1>About Me</h1>
 
         <ul className={classes.bullet}>
