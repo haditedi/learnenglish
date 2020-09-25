@@ -11,7 +11,7 @@ const AboutPage = () => {
         <meta name="description" content="Info about me" />
       </Helmet>
       <div className={classes.back}></div>
-      <div className="content">
+      <div className={classes.aboutPara}>
         <h1>About Me</h1>
 
         <ul className={classes.bullet}>
@@ -38,7 +38,7 @@ const AboutPage = () => {
           </li>
         </ul>
 
-        <h1>Professional Experience</h1>
+        <h1 className={classes.mTop}>Professional Experience</h1>
 
         <ul className={classes.bullet}>
           <li>
@@ -62,7 +62,7 @@ const AboutPage = () => {
           </li>
         </ul>
 
-        <h1>Education</h1>
+        <h1 className={classes.mTop}>Education</h1>
 
         <ul className={classes.bullet}>
           <li>
