@@ -10,7 +10,8 @@ const AboutPage = () => {
         <title>About me | Learn English online</title>
         <meta name="description" content="Info about me" />
       </Helmet>
-      <div className={`${classes.aboutPara} ${classes.back}`}>
+      <div className={classes.back}></div>
+      <div className={classes.aboutPara}>
         <h1>About Me</h1>
 
         <ul className={classes.bullet}>
