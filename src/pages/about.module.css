@@ -13,6 +13,9 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.mTop {
+  margin-top: 40px;
+}
 
 .aboutPara {
   max-width: 900px;

@@ -38,7 +38,7 @@ const AboutPage = () => {
           </li>
         </ul>
 
-        <h1 style={{ marginTop: "7rem" }}>Professional Experience</h1>
+        <h1 className={classes.mTop}>Professional Experience</h1>
 
         <ul className={classes.bullet}>
           <li>
@@ -62,7 +62,7 @@ const AboutPage = () => {
           </li>
         </ul>
 
-        <h1 style={{ marginTop: "7rem" }}>Education</h1>
+        <h1 className={classes.mTop}>Education</h1>
 
         <ul className={classes.bullet}>
           <li>
