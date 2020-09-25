@@ -14,7 +14,7 @@
   background-size: contain;
 }
 .mTop {
-  margin-top: 100px;
+  margin-top: 500px;
 }
 
 .aboutPara {
@@ -36,7 +36,7 @@
 }
 .aboutPara h1,
 .aboutPara h2 {
-  margin: 2rem;
+  margin: 7rem 2rem 2rem;
   line-height: 1.5;
   text-align: center;
 }
