@@ -57,9 +57,9 @@ const IndexPage = ({
             to children and adults whose first language is not English.
           </p>
           <p>
-            If you would like to further your progress in English, I can offer
-            support to equip students to become proficient in the most popular
-            and widely used language in the world.
+            If you would like to further your progress in English, <br />I can
+            offer support to equip students to become proficient in the most
+            popular and widely used language in the world.
           </p>
         </article>
       </section>
