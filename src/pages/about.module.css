@@ -19,15 +19,16 @@
 
 .aboutPara {
   max-width: 900px;
-  display: flex;
+  margin: 0 auto;
+  /* display: flex;
 
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin: auto; */
   line-height: 1.8rem;
   padding: 2rem;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+
   animation: animation 2s ease-out;
 }
 .aboutPara p {
